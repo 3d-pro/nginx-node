@@ -10,3 +10,4 @@ Nginx Mainline /w NodeJS 7.x image of Debian Sid [![Build Status](https://travis
 ## Run
 ```
   docker run -d -p 8080:80 -p 4433:443 -h nginx-node --name nginx-node nginx-node:latest
+```
