@@ -5,6 +5,6 @@ RUN echo 'Acquire::http::Proxy "http://172.17.0.1:3142";' > /etc/apt/apt.conf.d/
     echo "deb http://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list && \
     apt-get update && \
     apt-get install -y nodejs yarn git && \
-    yarn global add bower grunt && \
+    npm install -g bower grunt && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /build-files /etc/apt/apt.conf.d/11proxy
