@@ -1,4 +1,4 @@
-Nginx Mainline /w NodeJS 7.x image of Debian Sid [![Build Status](https://travis-ci.org/3d-pro/nginx-node.svg?branch=master)](https://travis-ci.org/3d-pro/nginx-node)
+Nginx Mainline /w NodeJS 7.x [![Build Status](https://travis-ci.org/3d-pro/nginx-node.svg?branch=master)](https://travis-ci.org/3d-pro/nginx-node)
 
 ## Required Docker Images
 - nginx
